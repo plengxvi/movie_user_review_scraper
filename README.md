@@ -17,7 +17,7 @@ Required Python Packages: Install the required packages using the following comm
 4. Prepare a CSV file containing movie information (e.g., movie_id, movie_title, year, stripped_title). The script expects this file to be named u.item.
 5. Run the script using the command:
 
- - python movie_user_review_scraper.py
+    > python movie_user_review_scraper.py
 
 6. The script will first retrieve IMDb URLs for the movies using the IMDbPY package and save them in a CSV file named moviesurl.csv in the data directory.
 7. Then, the script will scrape user reviews for each movie from the IMDb URLs and store them in separate CSV files within the reviews directory.
